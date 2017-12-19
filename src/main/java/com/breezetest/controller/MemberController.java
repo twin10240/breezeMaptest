@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.bigdata2017.service.MemberService;
+import com.breezetest.service.MemberService;
 import com.breezetest.vo.MemberVo;
 
 @Controller

@@ -3,10 +3,14 @@
 <configuration>
 	<typeAliases>
 		<typeAlias alias="membervo" type="com.breezetest.vo.MemberVo"/>
+		<typeAlias alias="postvo" type="com.breezetest.vo.PostVo"/>
+		<typeAlias alias="mapvo" type="com.breezetest.vo.MapVo"/>
     </typeAliases>	
 	
 	<mappers>
 		<mapper resource="mybatis/mappers/member.xml"/>
+		<mapper resource="mybatis/mappers/post.xml"/>
+		<mapper resource="mybatis/mappers/map.xml"/>
 	</mappers>
 	
 </configuration>

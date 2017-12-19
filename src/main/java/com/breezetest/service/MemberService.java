@@ -1,4 +1,4 @@
-package com.bigdata2017.service;
+package com.breezetest.service;
 
 import java.util.List;
 

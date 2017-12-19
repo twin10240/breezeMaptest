@@ -10,9 +10,10 @@
 </head>
 <body>
 	${hello }
-	<form action="${pageContext.request.contextPath }/map">
+	<form action="${pageContext.request.contextPath }/direction">
 		<!-- <input type="submit" value="회원보기" /> -->
-		<input type="submit" value="Google Map" />
+		<!-- <input type="submit" value="Google Map" /> -->
+		<input type="submit" value="Direction" />
 	</form>	
 	
 </body>
